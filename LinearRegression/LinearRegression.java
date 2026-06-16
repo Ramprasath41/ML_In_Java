@@ -4,6 +4,8 @@ class LinearRegression{
     private int n;
     private double sumOfX;
     private double sumOfY;
+
+
     LinearRegression(double[] independentVariable, double[] dependentVariable){
         this.n = independentVariable.length();
         this.independentVariable = independentVariable;
