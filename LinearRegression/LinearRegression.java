@@ -1,5 +1,6 @@
 import java.util.Arrays;
 
+package regression;
 class LinearRegression{
     private double[] independentVariable;
     private double[] dependentVariable;
