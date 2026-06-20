@@ -1,8 +1,8 @@
-import java.util.Arrays;
-
 package ml;
 
-class LinearRegression{
+import java.util.Arrays;
+
+public class LinearRegression{
     private double[] independentVariable;
     private double[] dependentVariable;
     private int n;
