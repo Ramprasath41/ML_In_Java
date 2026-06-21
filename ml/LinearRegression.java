@@ -13,7 +13,7 @@ public class LinearRegression{
     private double sumOfXSquare;
 
 
-    LinearRegression(double[] independentVariable, double[] dependentVariable){
+    public LinearRegression(double[] independentVariable, double[] dependentVariable){
         if (independentVariable.length != dependentVariable.length) {
             throw new IllegalArgumentException(
                     "Arrays must have the same length");
